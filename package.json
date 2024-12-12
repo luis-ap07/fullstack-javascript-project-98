@@ -7,6 +7,7 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
+  "src": "src/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
