@@ -1,0 +1,31 @@
+env:
+  node: true
+  es2021: true
+
+extends:
+  - eslint:recommended
+  - airbnb-base
+  - plugin:node/recommended
+
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 12
+  sourceType: module
+
+plugins:
+  - react
+
+rules:
+  no-console: off
+  import/extensions: off
+  no-unused-vars: warn
+  semi:
+    - error
+    - always
+  quotes:
+    - error
+    - double
+
+  react/prop-types: off
+
