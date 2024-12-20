@@ -9,3 +9,7 @@
 
 ### asciinema-brain-calc
 [![asciinema](https://asciinema.org/a/CkLvW66Dh540Ko2oR6rL1KdVl.svg)](https://asciinema.org/a/CkLvW66Dh540Ko2oR6rL1KdVl)
+
+
+### asciinema-brain-gcd
+[![asciinema](https://asciinema.org/a/W1IDW0Mns6UXf5uKjoRacxI9Y.svg)](https://asciinema.org/a/W1IDW0Mns6UXf5uKjoRacxI9Y)
