@@ -6,7 +6,7 @@ export const greetUser = () => {
 
 	function braingames() {
 
-	console.log('Welcome to the Brain Games!');
+	console.log('Bienvenido a Brain Games!');
 	const name = readlineSync.question('¿Cuál es tu nombre? ');
 	console.log(`¡Hola, ${name}!`);
 
