@@ -19,7 +19,7 @@ export const progression = () => {
 
     function brainprogression() {   
 
-    console.log('Bienvenido a Brain Games!');
+    console.log('¡Bienvenido a Brain Games!');
         
     const name =readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
