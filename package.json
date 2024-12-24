@@ -19,7 +19,6 @@
     "progression": "src/progression.js",
     "prime": "src/prime.js"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -34,5 +33,8 @@
     "eslint-plugin-react": "^7.37.2",
     "globals": "^15.13.0",
     "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
