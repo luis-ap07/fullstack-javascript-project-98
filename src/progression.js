@@ -3,25 +3,19 @@
 import readlineSync from 'readline-sync';
 
 export const progression = () => {
-
     
     function generarprogression() {
 
         const length = Math.floor(Math.random() * 6) + 5; 
         const start= Math.floor(Math.random() * 10) + 1;
-        const step = Math.floor(Math.random() * 4) + 2;
-
-
-        
-        
+        const step = Math.floor(Math.random() * 4) + 2;       
 
         const progression = [];
         for (let i = 0; i < length; i++){
             progression.push(start + i * step);
         }
         return progression;
-    }   
-   
+    }  
 
     function brainprogression() {   
 

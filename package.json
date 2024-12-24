@@ -9,13 +9,15 @@
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js"
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "src": {
     "cli": "src/cli.js",
     "index": "src/index.js",
     "gcd": "src/gcd.js",
-    "progression": "src/progression.js"
+    "progression": "src/progression.js",
+    "prime": "src/prime.js"
   },
 
   "scripts": {
