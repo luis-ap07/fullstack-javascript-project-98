@@ -54,7 +54,7 @@ export const index = () => {
                 }
              } else {
                 console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
-                console.log(`¡Intentémos de nuevo, ${name}!`);
+                console.log(`¡Intentémoslo de nuevo, ${name}!`);
              }          
         
          }
