@@ -1,8 +1,8 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/luis-ap07/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/luis-ap07/fullstack-javascript-project-98/actions)
+[![Actions Status](https://asciinema.org/a/rCWPyZE1aNd8Jdd40VbgmKIHm.svg)](https://asciinema.org/a/rCWPyZE1aNd8Jdd40VbgmKIHm)
 
 ### Maintainability
-[![Maintainability](https://api.codeclimate.com/v1/badges/f52b97b4fdafc1610aa7/maintainability)](https://codeclimate.com/github/luis-ap07/fullstack-javascript-project-98/maintainability)
+[![Maintainability](https://asciinema.org/a/9c7o7rxpTcTb5Us0jfbPSVM06.svg)](https://asciinema.org/a/9c7o7rxpTcTb5Us0jfbPSVM06)
 
 ### asciinema-brain-even
 [![asciinema](https://asciinema.org/a/5jcnpgdlyayVABfV9EYC2M6AG.svg)](https://asciinema.org/a/5jcnpgdlyayVABfV9EYC2M6AG)
@@ -12,10 +12,10 @@
 
 
 ### asciinema-brain-gcd
-[![asciinema](https://asciinema.org/a/W1IDW0Mns6UXf5uKjoRacxI9Y.svg)](https://asciinema.org/a/W1IDW0Mns6UXf5uKjoRacxI9Y)
+[![asciinema](https://asciinema.org/a/6xDDUkdjCBQv8mRiIbzl3kvYZ.svg)](https://asciinema.org/a/6xDDUkdjCBQv8mRiIbzl3kvYZ)
 
 ### asciinema-brain-progression
-[![asciinema](https://asciinema.org/a/yxr16QbUTCLWBDpxC7dBoejw6.svg)](https://asciinema.org/a/yxr16QbUTCLWBDpxC7dBoejw6)
+[![asciinema](https://asciinema.org/a/cO0fh8vQIgpgFvCVHOK9U9WeT.svg)](https://asciinema.org/a/cO0fh8vQIgpgFvCVHOK9U9WeT)
 
 ### asciinema-brain-prime
-[![asciinema](https://asciinema.org/a/aZFDkdqAR9FhN7WGUf8XXTdW6.svg)](https://asciinema.org/a/aZFDkdqAR9FhN7WGUf8XXTdW6)
+[![asciinema](https://asciinema.org/a/0ZTW0J9NGGvebDxpOIsUEVPfj.svg)](https://asciinema.org/a/0ZTW0J9NGGvebDxpOIsUEVPfj)
