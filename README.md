@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://asciinema.org/a/rCWPyZE1aNd8Jdd40VbgmKIHm.svg)](https://asciinema.org/a/rCWPyZE1aNd8Jdd40VbgmKIHm)
+[![Actions Status](https://github.com/luis-ap07/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)]([https://asciinema.org/a/rCWPyZE1aNd8Jdd40VbgmKIHm](https://github.com/luis-ap07/fullstack-javascript-project-98/actions))
 
 ### Maintainability
 [![Maintainability](https://asciinema.org/a/9c7o7rxpTcTb5Us0jfbPSVM06.svg)](https://asciinema.org/a/9c7o7rxpTcTb5Us0jfbPSVM06)
