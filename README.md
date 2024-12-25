@@ -15,7 +15,7 @@
 [![asciinema](https://asciinema.org/a/6xDDUkdjCBQv8mRiIbzl3kvYZ.svg)](https://asciinema.org/a/6xDDUkdjCBQv8mRiIbzl3kvYZ)
 
 ### asciinema-brain-progression
-[![asciinema](https://asciinema.org/a/cO0fh8vQIgpgFvCVHOK9U9WeT.svg)](https://asciinema.org/a/cO0fh8vQIgpgFvCVHOK9U9WeT)
+[![asciinema](https://asciinema.org/a/lJDy1LGqqngqW0XJqvbNw7MCT.svg)](https://asciinema.org/a/lJDy1LGqqngqW0XJqvbNw7MCT)
 
 ### asciinema-brain-prime
 [![asciinema](https://asciinema.org/a/0ZTW0J9NGGvebDxpOIsUEVPfj.svg)](https://asciinema.org/a/0ZTW0J9NGGvebDxpOIsUEVPfj)
