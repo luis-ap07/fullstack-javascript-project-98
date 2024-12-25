@@ -13,7 +13,7 @@ console.log('¡Bienvenido a Brain Games!');
 	
 const name =readlineSync.question('¿Cuál es tu nombre? ');
 console.log(`¡Hola, ${name}!`);
-console.log('Responde "yes" si el número es par, de lo contrario responde "no".');
+console.log("Responde 'yes' si el número es par, de lo contrario responde 'no'.");
 
 
 function braineven() {
