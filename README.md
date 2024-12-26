@@ -8,7 +8,7 @@
 [![asciinema](https://asciinema.org/a/2uhygLDUloxGNhHhiQouCLMKN.svg)](https://asciinema.org/a/2uhygLDUloxGNhHhiQouCLMKN)
 
 ### asciinema-brain-calc
-[![asciinema](https://asciinema.org/a/CkLvW66Dh540Ko2oR6rL1KdVl.svg)](https://asciinema.org/a/CkLvW66Dh540Ko2oR6rL1KdVl)
+[![asciinema](https://asciinema.org/a/MJeMKbxnmoEY6BoQJ224KAigh.svg)](https://asciinema.org/a/MJeMKbxnmoEY6BoQJ224KAigh)
 
 
 ### asciinema-brain-gcd
