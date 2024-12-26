@@ -24,7 +24,7 @@ export const progression = () => {
     const name =readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
 
-    console.log('Qué número falta en la progresión');
+    console.log('¿Qué número falta en la progresión?');
        
     let corrects = 0;    
 
