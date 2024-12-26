@@ -32,7 +32,7 @@ function play() {
 
     console.log(`Pregunta: ${number}`);
     const Answer=readlineSync.question('Tu respuesta: ');
-    if (Answer.toLowerCase() === correct){ 
+    if (Answer.toLowerCase() === correct){
         console.log('¡Correcto!');
         corrects += 1;
 
