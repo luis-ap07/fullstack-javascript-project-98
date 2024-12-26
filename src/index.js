@@ -20,6 +20,8 @@ export const index = () => {
         
     const name =readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
+
+    console.log('¿Cuál es el resultado de la expresión?');
        
     let corrects = 0;
     let rcorrect;
