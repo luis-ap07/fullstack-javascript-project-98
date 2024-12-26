@@ -22,7 +22,7 @@ console.log('¡Bienvenido a Brain Games!');
 	
 const name = readlineSync.question('¿Cuál es tu nombre? ');
 console.log(`¡Hola, ${name}!`);
-console.log('Responde "yes" si el número es primo. De lo contrario, responde "no"');
+console.log('Responde "yes" si el número dado es primo. De lo contrario, responde "no"');
 
 let corrects = 0;
 
