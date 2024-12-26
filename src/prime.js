@@ -43,7 +43,7 @@ function play() {
         }
      } else {
         console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correct}' `);
-        console.log(`¡Intentémos de nuevo, ${name}!`);
+        console.log(`¡Intentémoslo de nuevo, ${name}!`);
      }     
 }
 play();
