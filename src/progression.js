@@ -14,12 +14,12 @@ export const progression = () => {
         return progression;
     }
     function brainprogression() {
-    console.log('¡Bienvenido a Brain Games!');        
-    const name =readlineSync.question('¿Cuál es tu nombre? ');
-    console.log(`¡Hola, ${name}!`);
-    console.log('¿Qué número falta en la progresión?');       
-    let corrects = 0;
-    function play() {
+      console.log('¡Bienvenido a Brain Games!');        
+      const name =readlineSync.question('¿Cuál es tu nombre? ');
+      console.log(`¡Hola, ${name}!`);
+      console.log('¿Qué número falta en la progresión?');       
+      let corrects = 0;
+      function play() {
         const progression = generarprogression();
         const hiddenIndex = Math.floor(Math.random() * progression.length);
         const rcorrect = progression[hiddenIndex];        
@@ -28,18 +28,18 @@ export const progression = () => {
         console.log(`Pregunta: ${Pregunta.join(' ')}`);
         const Answer = readlineSync.question('Tu respuesta: ');
         const intAnswer  = parseInt(Answer);                
-            if (intAnswer === rcorrect){ 
-                console.log('¡Correcto!');
-                corrects += 1;        
-                if (corrects === 3) {
-                    console.log(`¡Felicidades, ${name}!`);
-                } else {
-                    play();
-                }
-             } else {
-                console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
-                console.log(`¡Intentémoslo de nuevo, ${name}!`);
-             }
+        if (intAnswer === rcorrect){ 
+          console.log('¡Correcto!');
+          corrects += 1;        
+          if (corrects === 3) {
+            console.log(`¡Felicidades, ${name}!`);
+          } else {
+              play();
+            }
+        } else {
+            console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
+            console.log(`¡Intentémoslo de nuevo, ${name}!`);
+        }
          }
     play();
         }
