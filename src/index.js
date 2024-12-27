@@ -3,11 +3,9 @@
 import readlineSync from 'readline-sync';
 
 export const index = () => {
-
     function RandomNumber() {
         return Math.floor(Math.random() * 100) + 1;
-    }
-    
+    }    
     function RandomOperador() {
         const operadores = ['+', '-', '*'];
         const indice = Math.floor(Math.random() * operadores.length);
@@ -15,29 +13,22 @@ export const index = () => {
     }
     
     function braincalc() {   
-
-    console.log('¡Bienvenido a Brain Games!');
-        
+    console.log('¡Bienvenido a Brain Games!');        
     const name =readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
-
     console.log('¿Cuál es el resultado de la expresión?');
        
     let corrects = 0;
     let rcorrect;
 
-    function play() { 
-
+    function play() {
         const number1 = RandomNumber();
         const number2 = RandomNumber();
-        const operador = RandomOperador();
-        
+        const operador = RandomOperador();        
         const Pregunta = `${number1} ${operador} ${number2}`;
-
         console.log(`Pregunta: ${Pregunta}`);
         const Answer = readlineSync.question('Tu respuesta: ');
-        const intAnswer  = parseInt(Answer);
-        
+        const intAnswer  = parseInt(Answer);        
 
             if (operador === '+')rcorrect = number1 + number2;
             
@@ -57,11 +48,9 @@ export const index = () => {
              } else {
                 console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
                 console.log(`¡Intentémoslo de nuevo, ${name}!`);
-             }          
-        
+             }        
          }
     play();
         }
     braincalc();
-
 }
