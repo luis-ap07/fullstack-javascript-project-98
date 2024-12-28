@@ -37,12 +37,12 @@ export const index = () => {
       if (parseInt(Answer) === rcorrect) {
         console.log('¡Correcto!');
         corrects += 1;
-      if (corrects === 3) {
-      console.log(`¡Felicidades, ${name}!`);
-      } else {
-        play();
+        if (corrects === 3) {
+          console.log(`¡Felicidades, ${name}!`);
+          } else {
+            play();
           }
-      } else {
+        } else {
         console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
         console.log(`¡Intentémoslo de nuevo, ${name}!`);
       }
