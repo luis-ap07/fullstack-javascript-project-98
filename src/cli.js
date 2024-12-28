@@ -9,4 +9,4 @@ export const greetUser = () => {
     console.log(`¡Hola, ${name}!`);
   }
   braingames();
-}
+};

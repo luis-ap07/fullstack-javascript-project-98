@@ -25,13 +25,13 @@ export const prime = () => {
       console.log(`Pregunta: ${number}`);
       const Answer=readlineSync.question('Tu respuesta: ');
       if (Answer.toLowerCase() === correct){
-         console.log('¡Correcto!');
-         corrects += 1;
-         if (corrects === 3) {
-            console.log(`¡Felicidades, ${name}!`);
-         } else {
-             play();
-           }
+        console.log('¡Correcto!');
+        corrects += 1;
+        if (corrects === 3) {
+          console.log(`¡Felicidades, ${name}!`);
+        } else {
+          play();
+        }
   } else {
       console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correct}' `);
       console.log(`¡Intentémoslo de nuevo, ${name}!`);
@@ -40,4 +40,4 @@ export const prime = () => {
 play();
 }
 brainprime();
-}
+};

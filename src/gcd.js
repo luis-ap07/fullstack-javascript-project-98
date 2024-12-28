@@ -37,9 +37,9 @@ export const gcd = () => {
           } else {
             console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
             console.log(`¡Intentémoslo de nuevo, ${name}!`);
-            }
+          }
     }
     play();
         }
     braingcd();
-}
+};

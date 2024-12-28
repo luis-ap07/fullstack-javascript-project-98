@@ -33,16 +33,16 @@ export const index = () => {
           console.log('¡Correcto!');
           corrects += 1;        
           if (corrects === 3) {
-              console.log(`¡Felicidades, ${name}!`);
-              } else {
-                  play();
-                }
-        } else {
-            console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
-            console.log(`¡Intentémoslo de nuevo, ${name}!`);
+            console.log(`¡Felicidades, ${name}!`);
+          } else {
+            play();
           }
+        } else {
+          console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
+          console.log(`¡Intentémoslo de nuevo, ${name}!`);
+        }
     }
     play();
         }
     braincalc();
-}
+};
