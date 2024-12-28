@@ -5,10 +5,10 @@ import readlineSync from 'readline-sync';
 export const gcd = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
-  }  
-  const MCD = (a, b) => {
-    while (b !== 0) {
-      [a, b] = [b, a % b];           
+  }
+  const MCD = ( a, b ) => {
+    while ( b !== 0 ) {
+      [ a, b ] = [ b, a % b ];
     }
     return a;
   };
@@ -24,8 +24,8 @@ export const gcd = () => {
       const rcorrect = MCD(number1, number2);
       const Pregunta = `${number1} ${number2}`;
       console.log(`Pregunta: ${Pregunta}`);
-      const Answer = readlineSync.question('Tu respuesta: ');      
-      if (parseInt(Answer) === rcorrect){
+      const Answer = readlineSync.question('Tu respuesta: ');
+      if (parseInt(Answer) === rcorrect) {
         console.log('¡Correcto!');
         corrects += 1;
         if (corrects === 3) {

@@ -17,13 +17,13 @@ export const progression = () => {
     console.log('¡Bienvenido a Brain Games!');
     const name = readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
-    console.log('¿Qué número falta en la progresión?');       
+    console.log('¿Qué número falta en la progresión?');
     let corrects = 0;
     function play() {
-      const progression = generarprogression();
-      const hiddenIndex = Math.floor(Math.random() * progression.length);
-      const rcorrect = progression[hiddenIndex];
-      const Pregunta = progression.map((num, index) => index === hiddenIndex ? '..' : num);
+      const progresion = generarprogression();
+      const hiddenIndex = Math.floor(Math.random() * progresion.length);
+      const rcorrect = progresion[hiddenIndex];
+      const Pregunta = progresion.map((num, index) => index === hiddenIndex ? '..' : num);
       console.log(`Pregunta: ${Pregunta.join(' ')}`);
       const Answer = readlineSync.question('Tu respuesta: ');
       if (parseInt(Answer) === rcorrect) {
