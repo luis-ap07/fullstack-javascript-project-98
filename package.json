@@ -1,6 +1,9 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.1",
+  "description": "[![Actions Status](https://github.com/luis-ap07/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/luis-ap07/fullstack-javascript-project-98/actions)",
+  "main": "index.js",
+  "type": "module",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
