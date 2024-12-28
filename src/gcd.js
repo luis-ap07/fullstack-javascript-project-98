@@ -6,9 +6,9 @@ export const gcd = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
   }
-  const MCD = ( a, b ) => {
-    while ( b !== 0 ) {
-      [ a, b ] = [ b, a % b ];
+  const MCD = (a, b) => {
+    while (b !== 0) {
+      [a, b] = [b, a % b];
     }
     return a;
   };
