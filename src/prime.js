@@ -11,8 +11,8 @@ export const prime = () => {
     for (let i = 2; i <= Math.sqrt(num); i++) {
       if (num % i === 0) return false;
     }
-      return true;
-    }
+    return true;
+  }
   function brainprime() {
     console.log('¡Bienvenido a Brain Games!');
     const name = readlineSync.question('¿Cuál es tu nombre? ');
@@ -32,12 +32,12 @@ export const prime = () => {
         } else {
           play();
         }
-  } else {
-      console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correct}' `);
-      console.log(`¡Intentémoslo de nuevo, ${name}!`);
+      } else {
+        console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${correct}' `);
+        console.log(`¡Intentémoslo de nuevo, ${name}!`);
+      }
     }
-}
-play();
-}
-brainprime();
+    play();
+  }
+  brainprime();
 };

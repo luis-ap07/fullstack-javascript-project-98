@@ -2,13 +2,13 @@
 
 import readlineSync from 'readline-sync';
 
-export const progression = () => {    
+export const progression = () => {
   function generarprogression() {
-    const length = Math.floor(Math.random() * 6) + 5; 
-    const start= Math.floor(Math.random() * 10) + 1;
+    const length = Math.floor(Math.random() * 6) + 5;
+    const start = Math.floor(Math.random() * 10) + 1;
     const step = Math.floor(Math.random() * 4) + 2;
     const progression = [];
-    for (let i = 0; i < length; i++){
+    for (let i = 0; i < length; i++) {
       progression.push(start + i * step);
     }
     return progression;
@@ -22,9 +22,8 @@ export const progression = () => {
     function play() {
       const progression = generarprogression();
       const hiddenIndex = Math.floor(Math.random() * progression.length);
-      const rcorrect = progression[hiddenIndex];    
-      const Pregunta = progression.map((num, index) =>
-      index === hiddenIndex ? '..' : num);
+      const rcorrect = progression[hiddenIndex];
+      const Pregunta = progression.map((num, index) => index === hiddenIndex ? '..' : num);
       console.log(`Pregunta: ${Pregunta.join(' ')}`);
       const Answer = readlineSync.question('Tu respuesta: ');
       const intAnswer = parseInt(Answer);
@@ -36,12 +35,12 @@ export const progression = () => {
         } else {
           play();
         }
-        } else {
-          console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
-          console.log(`¡Intentémoslo de nuevo, ${name}!`);
-        }
-         }
+      } else {
+        console.log(`'${Answer}' es una respuesta incorrecta ;(. La respuesta correcta era '${rcorrect}' `);
+        console.log(`¡Intentémoslo de nuevo, ${name}!`);
+      }
+    }
     play();
-        }
+  }
   brainprogression();
 };
