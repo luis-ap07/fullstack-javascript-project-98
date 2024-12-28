@@ -5,9 +5,7 @@ import readlineSync from 'readline-sync';
 export const gcd = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
-  }
-  let a;
-  let b;
+  }  
   const MCD = (a, b) => {
     while (b !== 0) {
       [a, b] = [b, a % b];           

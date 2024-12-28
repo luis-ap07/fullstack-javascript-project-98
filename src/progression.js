@@ -26,8 +26,7 @@ export const progression = () => {
       const Pregunta = progression.map((num, index) => index === hiddenIndex ? '..' : num);
       console.log(`Pregunta: ${Pregunta.join(' ')}`);
       const Answer = readlineSync.question('Tu respuesta: ');
-      const intAnswer = parseInt(Answer);
-      if (intAnswer === rcorrect) {
+      if (parseInt(Answer) === rcorrect) {
         console.log('¡Correcto!');
         corrects += 1;
         if (corrects === 3) {

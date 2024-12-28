@@ -35,10 +35,10 @@ export const index = () => {
       if (operador === '*') {
         rcorrect = number1 * number2;
       }
-      if (intAnswer === rcorrect) {
+      if (parseInt(Answer) === rcorrect) {
         console.log('¡Correcto!');
         corrects += 1;
-        if (corrects === 3) {
+      if (corrects === 3) {
         console.log(`¡Felicidades, ${name}!`);
       } else {
         play();
