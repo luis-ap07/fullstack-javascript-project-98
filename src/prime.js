@@ -23,8 +23,8 @@ export const prime = () => {
       const number = RandomNumber();
       const correct = prime(number) ? 'yes' : 'no';
       console.log(`Pregunta: ${number}`);
-      const Answer=readlineSync.question('Tu respuesta: ');
-      if (Answer.toLowerCase() === correct){
+      const Answer = readlineSync.question('Tu respuesta: ');
+      if (Answer.toLowerCase() === correct) {
         console.log('¡Correcto!');
         corrects += 1;
         if (corrects === 3) {

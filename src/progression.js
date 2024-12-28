@@ -15,7 +15,7 @@ export const progression = () => {
     }
     function brainprogression() {
       console.log('¡Bienvenido a Brain Games!');        
-      const name =readlineSync.question('¿Cuál es tu nombre? ');
+      const name = readlineSync.question('¿Cuál es tu nombre? ');
       console.log(`¡Hola, ${name}!`);
       console.log('¿Qué número falta en la progresión?');       
       let corrects = 0;
@@ -27,8 +27,8 @@ export const progression = () => {
         index === hiddenIndex ? '..' : num);
         console.log(`Pregunta: ${Pregunta.join(' ')}`);
         const Answer = readlineSync.question('Tu respuesta: ');
-        const intAnswer  = parseInt(Answer);                
-        if (intAnswer === rcorrect){ 
+        const intAnswer = parseInt(Answer);                
+        if (intAnswer === rcorrect) {
           console.log('¡Correcto!');
           corrects += 1;        
           if (corrects === 3) {

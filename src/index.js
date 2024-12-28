@@ -13,7 +13,7 @@ export const index = () => {
   }    
   function braincalc() {   
     console.log('¡Bienvenido a Brain Games!');        
-    const name =readlineSync.question('¿Cuál es tu nombre? ');
+    const name = readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
     console.log('¿Cuál es el resultado de la expresión?');
     let corrects = 0;
@@ -25,11 +25,11 @@ export const index = () => {
       const Pregunta = `${number1} ${operador} ${number2}`;
       console.log(`Pregunta: ${Pregunta}`);
       const Answer = readlineSync.question('Tu respuesta: ');
-      const intAnswer  = parseInt(Answer);
+      const intAnswer = parseInt(Answer);
       if (operador === '+')rcorrect = number1 + number2;            
       if (operador === '-')rcorrect = number1 - number2;            
       if (operador === '*')rcorrect = number1 * number2;                
-      if (intAnswer === rcorrect){ 
+      if (intAnswer === rcorrect) {
           console.log('¡Correcto!');
           corrects += 1;        
           if (corrects === 3) {

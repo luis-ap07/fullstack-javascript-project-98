@@ -14,7 +14,7 @@ export const gcd = () => {
   }
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');        
-    const name =readlineSync.question('¿Cuál es tu nombre? ');
+    const name = readlineSync.question('¿Cuál es tu nombre? ');
     console.log(`¡Hola, ${name}!`);
     console.log('Encuentra el máximo común divisor de los números dados.');       
     let corrects = 0;
@@ -25,8 +25,8 @@ export const gcd = () => {
       const Pregunta = `${number1} ${number2}`;
       console.log(`Pregunta: ${Pregunta}`);
       const Answer = readlineSync.question('Tu respuesta: ');
-      const intAnswer  = parseInt(Answer);
-      if (intAnswer === rcorrect){ 
+      const intAnswer = parseInt(Answer);
+      if (intAnswer === rcorrect){
         console.log('¡Correcto!');
         corrects += 1;        
         if (corrects === 3) {
