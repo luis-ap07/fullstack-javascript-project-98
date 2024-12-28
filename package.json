@@ -1,41 +1,50 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.1",
-  "lockfileVersion": 3,
-  "requires": true,
-  "packages": {
-    "": {
-      "name": "@hexlet/code",
-      "version": "1.0.1",
-      "license": "ISC",
-      "dependencies": {
-        "readline-sync": "^1.4.10"
-      },
-      "bin": {
-        "brain-calc": "bin/brain-calc.js",
-        "brain-even": "bin/brain-even.js",
-        "brain-games": "bin/brain-games.js",
-        "brain-gcd": "bin/brain-gcd.js",
-        "brain-prime": "bin/brain-prime.js",
-        "brain-progression": "bin/brain-progression.js"
-      },
-      "devDependencies": {
-        "@eslint/js": "^9.16.0",
-        "eslint": "^8.57.1",
-        "eslint-config-airbnb-base": "^15.0.0",
-        "eslint-plugin-import": "^2.31.0",
-        "eslint-plugin-react": "^7.37.2",        
-        "typescript-eslint": "^8.18.0"
-      }
-    },
-    "node_modules/@eslint-community/eslint-utils": {
+  "description": "[![Actions Status](https://github.com/luis-ap07/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/luis-ap07/fullstack-javascript-project-98/actions)",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
+  },
+  "src": {
+    "cli": "src/cli.js",
+    "index": "src/index.js",
+    "gcd": "src/gcd.js",
+    "progression": "src/progression.js",
+    "prime": "src/prime.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.2",    
+    "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "globals": "^15.13.0",
+    "readline-sync": "^1.4.10"
+  },
+
+  "node_modules/@eslint-community/eslint-utils": {
       "version": "4.4.1",
       "resolved": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.1.tgz",
       "integrity": "sha512-s3O3waFUrMV8P/XaF/+ZTp1X9XBZW1a4B97ZnjQF2KYWaFD2A8KyFBsrsfSjEmjn3RGWAIuvlneuZm3CUK3jbA==",
       "dev": true,
       "license": "MIT",
       "dependencies": {
-        "globals": "^15.13.0",
         "eslint-visitor-keys": "^3.4.3"
       },
       "engines": {
@@ -3753,6 +3762,5 @@
       "funding": {
         "url": "https://github.com/sponsors/sindresorhus"
       }
-    }
-  }
+    }  
 }
