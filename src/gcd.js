@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 
-export const gcd = () => {
+const gcd = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
   }
@@ -42,3 +42,4 @@ export const gcd = () => {
   }
   braingcd();
 };
+export default gcd;

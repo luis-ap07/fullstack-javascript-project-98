@@ -14,22 +14,22 @@ parserOptions:
   ecmaFeatures:
     jsx: true
   ecmaVersion: 12
-  sourceType: 'module'
+  sourceType: module
 
 plugins:
   - 'react'
   - '@typescript-eslint'
 
 rules:
+  '@typescript-eslint/explicit-module-boundary-types': off
   no-console: off
   import/extensions: off
-  no-unused-vars: 'warn'
+  no-unused-vars: warn
   semi:
-    - 'error'
-    - 'always'
+    - error
+    - always
   quotes:
-    - 'error'
-    - 'double'
+    - error
+    - double
 
   react/prop-types: off
-

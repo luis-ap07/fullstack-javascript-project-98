@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 
-export const prime = () => {
+const prime = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
   }
@@ -41,3 +41,4 @@ export const prime = () => {
   }
   brainprime();
 };
+export default prime;

@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 
-export const even = () => {
+const even = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
   }
@@ -34,3 +34,4 @@ export const even = () => {
   }
   braineven();
 };
+export default even;

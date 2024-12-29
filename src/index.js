@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 
-export const index = () => {
+const index = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
   }
@@ -51,3 +51,4 @@ export const index = () => {
   }
   braincalc();
 };
+export default index;
