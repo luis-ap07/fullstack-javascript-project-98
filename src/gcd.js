@@ -8,11 +8,10 @@ const gcd = () => {
   }
   function MCD(a, b) {
     if (b === 0) {
-        return a;
-    } else {
-        return MCD(b, a % b);
+      return a;
     }
-}
+    return MCD(b, a % b);
+  }
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');
     const name = readlineSync.question('¿Cuál es tu nombre? ');
