@@ -19,11 +19,12 @@ const progression = () => {
     console.log(`¡Hola, ${name}!`);
     console.log('¿Qué número falta en la progresión?');
     let corrects = 0;
-    const Pregunta = progress.map((num, index) => (index === hiddenIndex) ? '..' : num);
     function play() {
       const progress = generarprogression();
       const hiddenIndex = Math.floor(Math.random() * progress.length);
       const rcorrect = progress[hiddenIndex];
+      const Pregunta = progress.map((num, index) => { 
+      return (index === hiddenIndex) ? '..' : num; });
       console.log(`Pregunta: ${Pregunta.join(' ')}`);
       const Answer = readlineSync.question('Tu respuesta: ');
       if (parseInt(Answer, 10) === rcorrect) {
