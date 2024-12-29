@@ -9,5 +9,5 @@ const greetUser = () => {
     console.log(`¡Hola, ${name}!`);
   }
   braingames();
-}
+};
 export default greetUser;
