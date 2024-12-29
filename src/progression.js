@@ -22,7 +22,7 @@ const progression = () => {
     function play() {
       const progress = generarprogression();
       const hiddenIndex = Math.floor(Math.random() * progress.length);
-      const rcorrect = progress[hiddenIndex, 10];
+      const rcorrect = progress[hiddenIndex];
       const Pregunta = progress.map((num, index) => { return (index === hiddenIndex) ? '..' : num; });
       console.log(`Pregunta: ${Pregunta.join(' ')}`);
       const Answer = readlineSync.question('Tu respuesta: ');
