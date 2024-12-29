@@ -5,15 +5,15 @@ import readlineSync from 'readline-sync';
 const gcd = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
-  }   
-  function MCD(a, b) {
-    while (b !== 0) {
-      let temp = b;
-      b = a % b;
-      a = temp;
+  }
+  const MCD = (a, b) => {
+    let num1 = a;
+    let num2 = b;
+    while (num2 !== 0) {
+      [num1, num2] = [num2, num1 % num2];           
     }
     return a;
-  }
+  };
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');
     const name = readlineSync.question('¿Cuál es tu nombre? ');

@@ -31,13 +31,13 @@
     "@typescript-eslint/parser": "^8.18.2",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.31.0",    
-    "typescript-eslint": "^8.18.2"
+    "eslint-plugin-import": "^2.31.0"
   },
   "dependencies": {
     "globals": "^15.14.0",
     "eslint-plugin-react": "^7.37.3",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "typescript-eslint": "^8.18.2"
   },
   "node_modules/@eslint-community/eslint-utils": {
     "version": "4.4.1",
