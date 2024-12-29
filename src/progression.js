@@ -8,7 +8,7 @@ const progression = () => {
     const start = Math.floor(Math.random() * 10) + 1;
     const step = Math.floor(Math.random() * 4) + 2;
     const progres = [];
-    for (let i = 0; i < length; i = i + 1) {
+    for (let i = 0; i < length; i += 1) {
       progres.push(start + i * step);
     }
     return progres;
@@ -23,9 +23,7 @@ const progression = () => {
       const progress = generarprogression();
       const hiddenIndex = Math.floor(Math.random() * progress.length);
       const rcorrect = progress[hiddenIndex];
-      const Pregunta = progress.map((num, index) => {
-        return (index === hiddenIndex) ? '..' : num;
-      });
+      const Pregunta = progress.map((num, index) => { return (index === hiddenIndex) ? '..' : num;});
       console.log(`Pregunta: ${Pregunta.join(' ')}`);
       const Answer = readlineSync.question('Tu respuesta: ');
       if (parseInt(Answer) === rcorrect) {

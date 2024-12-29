@@ -10,7 +10,7 @@ const gcd = () => {
     while (b !== 0) {
       [a, b] = [b, a % b];
     }
-    return a;
+    return [a, b];
   };
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');
