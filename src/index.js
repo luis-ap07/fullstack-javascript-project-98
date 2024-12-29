@@ -34,7 +34,7 @@ const index = () => {
       if (operador === '*') {
         rcorrect = number1 * number2;
       }
-      if (parseInt(Answer) === rcorrect) {
+      if (parseInt(Answer, 10) === rcorrect) {
         console.log('¡Correcto!');
         corrects += 1;
         if (corrects === 3) {

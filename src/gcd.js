@@ -10,7 +10,7 @@ const gcd = () => {
     while (b !== 0) {
       [a, b] = [b, a % b];
     }
-    return [a, b];
+    return a;
   };
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');
@@ -25,7 +25,7 @@ const gcd = () => {
       const Pregunta = `${number1} ${number2}`;
       console.log(`Pregunta: ${Pregunta}`);
       const Answer = readlineSync.question('Tu respuesta: ');
-      if (parseInt(Answer) === rcorrect) {
+      if (parseInt(Answer, 10) === rcorrect) {
         console.log('¡Correcto!');
         corrects += 1;
         if (corrects === 3) {
