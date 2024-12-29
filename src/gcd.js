@@ -6,14 +6,14 @@ const gcd = () => {
   function RandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
   }
-  function MCD(a, b) {    
+  function MCD(a, b) {
     while (b !== 0) {
-      let numero = b;
+      const numero = b;
       b = a % b;
       a = numero;
     }
     return a;
-  }  
+  }
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');
     const name = readlineSync.question('¿Cuál es tu nombre? ');
