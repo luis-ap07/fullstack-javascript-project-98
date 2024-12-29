@@ -7,13 +7,12 @@ const gcd = () => {
     return Math.floor(Math.random() * 100) + 1;
   }
   function MCD(a, b) {
-    while (b !== 0) {
-      const numero = b;
-      b = a % b;
-      a = numero;
+    if (b === 0) {
+        return a;
+    } else {
+        return MCD(b, a % b);
     }
-    return a;
-  }
+}
   function braingcd() {
     console.log('¡Bienvenido a Brain Games!');
     const name = readlineSync.question('¿Cuál es tu nombre? ');
