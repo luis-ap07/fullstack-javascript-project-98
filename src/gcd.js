@@ -7,10 +7,8 @@ const gcd = () => {
     return Math.floor(Math.random() * 100) + 1;
   }
   const MCD = (a, b) => {
-    let num1 = a;
-    let num2 = b;
-    while (num2 !== 0) {
-      [num1, num2] = [num2, num1 % num2];           
+    while (b !== 0) {
+      [a, b] = [b, a % b];
     }
     return a;
   };
