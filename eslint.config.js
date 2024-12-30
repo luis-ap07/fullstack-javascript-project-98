@@ -1,5 +1,5 @@
 import globals from 'globals';
-import tseslint from '@typescript-eslint/eslint-plugin';
+import * as tseslint from '@typescript-eslint/eslint-plugin';
 import pluginReact from 'eslint-plugin-react';
 
 /** @type { import('eslint').Linter.Config[] } */
