@@ -21,7 +21,6 @@ plugins:
   - '@typescript-eslint'
 
 rules:
-  '@typescript-eslint/explicit-module-boundary-types': off
   no-console: off
   import/extensions: off
   no-unused-vars: 'warn'
