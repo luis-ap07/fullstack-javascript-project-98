@@ -8,12 +8,14 @@ parser: "@typescript-eslint/parser"
 extends:
   - "eslint:recommended"
   - "airbnb-base"
+  - "plugin:react/recommended"
   - "plugin:node/recommended"
   - "plugin:@typescript-eslint/recommended"
 
 parserOptions:
-  ecmaVersion: 2020
+  ecmaVersion: 2021
   sourceType: "module"
+  project: "./tsconfig.json"
   ecmaFeatures:
     jsx: true
 
@@ -22,6 +24,8 @@ plugins:
   - "@typescript-eslint"
 
 rules:
+  "@typescript-eslint/explicit-module-boundary-types": "off"
+  "@typescript-eslint/no-unused-vars": ["warn"]
   no-console: off
   import/extensions: off
   no-unused-vars: "warn"
