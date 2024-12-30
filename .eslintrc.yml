@@ -3,39 +3,39 @@ env:
   node: true
   es2021: true
 
-parser: '@typescript-eslint/parser'
+parser: "@typescript-eslint/parser"
 
 extends:
-  - 'eslint:recommended'
-  - 'airbnb-base'
-  - 'plugin:node/recommended'
-  - 'plugin:@typescript-eslint/recommended'
+  - "eslint:recommended"
+  - "airbnb-base"
+  - "plugin:node/recommended"
+  - "plugin:@typescript-eslint/recommended"
 
 parserOptions:
   ecmaVersion: 2020
-  sourceType: 'module'
+  sourceType: "module"
   ecmaFeatures:
     jsx: true
 
 plugins:
-  - 'react'
-  - '@typescript-eslint'
+  - "react"
+  - "@typescript-eslint"
 
 rules:
   no-console: off
   import/extensions: off
-  no-unused-vars: 'warn'
+  no-unused-vars: "warn"
   semi:
-    - 'error'
-    - 'always'
+    - "error"
+    - "always"
   quotes:
-    - 'error'
-    - 'double'
+    - "error"
+    - "double"
 
   react/prop-types: off
 
   indent:
-    - 'off'
-    '@typescript-eslint/indent'
-    - 'error'
+    - "off"
+    "@typescript-eslint/indent"
+    - "error"
     - 2
