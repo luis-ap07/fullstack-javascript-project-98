@@ -8,7 +8,8 @@ const juego = () => {
   const progress = generarprogression();
       const hiddenIndex = Math.floor(Math.random() * progress.length);
       const correct = progress[hiddenIndex];
-      const pregunta = progress.map((num, index) => (index === hiddenIndex ? '..' : num));
+      const join = progress.map((num, index) => (index === hiddenIndex ? '..' : num));
+      const pregunta = (join.join(' '));
       
     return { 
       pregunta, 
