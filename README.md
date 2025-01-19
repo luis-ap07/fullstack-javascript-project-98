@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/luis-ap07/fullstack-javascript-project-98/actions/workflows/hexlet-check.yml/badge.svg)]([https://asciinema.org/a/rCWPyZE1aNd8Jdd40VbgmKIHm](https://github.com/luis-ap07/fullstack-javascript-project-98/actions))
 
 ### Maintainability
-[![Maintainability](https://api.codeclimate.com/v1/badges/f52b97b4fdafc1610aa7/maintainability)](https://https://codeclimate.com/github//luis-ap07/fullstack-javascript-project-98/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f52b97b4fdafc1610aa7/maintainability)](https://https://codeclimate.com/github/luis-ap07/fullstack-javascript-project-98/maintainability)
 
 ### asciinema-brain-even
 [![asciinema](https://asciinema.org/a/s6qkxS33bQ4TEgeKaTFTn86n0.svg)](https://asciinema.org/a/s6qkxS33bQ4TEgeKaTFTn86n0)
