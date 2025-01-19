@@ -12,6 +12,6 @@ const juego = () => {
     correct: String(correct),
   };
 };
-const texto = 'Responde "yes" si el número dado es primo. De lo contrario, responde "no"'
+const texto = 'Responde "yes" si el número dado es primo. De lo contrario, responde "no"';
 
 export default () => play(texto, juego);

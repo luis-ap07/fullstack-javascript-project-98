@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import greetUser from './cli.js';
-
 import readlineSync from 'readline-sync';
+
+import greetUser from './cli.js';
 
 const play = (texto, juego) => {
   const name = greetUser();

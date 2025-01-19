@@ -14,6 +14,6 @@ const juego = () => {
     correct: String(correct),
   };
 };
-const texto = 'Encuentra el máximo común divisor de los números dados.'
+const texto = 'Encuentra el máximo común divisor de los números dados.';
 
 export default () => play(texto, juego);

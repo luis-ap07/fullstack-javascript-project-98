@@ -15,6 +15,6 @@ const juego = () => {
     correct: String(correct),
   };
 };
-const texto = '¿Qué número falta en la progresión?'
+const texto = '¿Qué número falta en la progresión?';
 
 export default () => play(texto, juego);
