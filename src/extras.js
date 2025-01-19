@@ -35,5 +35,5 @@ const generarprogression = () => {
 };
 
 export {
-  RandomNumber, RandomOperador, MCD, prim, generarprogression
+  RandomNumber, RandomOperador, MCD, prim, generarprogression,
 };
