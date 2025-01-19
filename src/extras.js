@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-const RandomNumber = () => {
-  return Math.floor(Math.random() * 100) + 1;
-};
+const RandomNumber = () => Math.floor(Math.random() * 100) + 1;
 
 const RandomOperador = () => {
   const operadores = ['+', '-', '*'];
@@ -36,4 +34,6 @@ const generarprogression = () => {
   return progres;
 };
 
-export { RandomNumber, RandomOperador, MCD, prim, generarprogression };
+export {
+  RandomNumber, RandomOperador, MCD, prim, generarprogression
+};
